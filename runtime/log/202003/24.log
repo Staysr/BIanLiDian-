@@ -1,0 +1,593 @@
+---------------------------------------------------------------
+[ 2020-03-24T13:45:05+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/
+[运行时间：0.164574s] [吞吐率：6.08req/s] [内存消耗：3,110.66kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007310s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004838s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'referer' => 'http://localhost/BIanLiDian/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1584950968',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006207s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/MAMP/htdocs/www/BIanLiDian/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-24T13:45:10+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admn
+[运行时间：0.071592s] [吞吐率：13.97req/s] [内存消耗：2,074.57kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001653s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admn',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-24T13:45:15+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin
+[运行时间：0.126871s] [吞吐率：7.88req/s] [内存消耗：3,532.82kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002380s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/BIanLiDian/public/admin',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007154s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000310s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-24T13:45:15+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/ajax/lang?callback=define&controllername=index&v=1585028715
+[运行时间：0.092983s] [吞吐率：10.75req/s] [内存消耗：3,387.48kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000176s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001634s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'script',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1585028715',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002455s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000284s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-24T13:45:15+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/index.php?s=/captcha
+[运行时间：0.483484s] [吞吐率：2.07req/s] [内存消耗：2,108.79kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000242s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.045003s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'image',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/MAMP/htdocs/www/BIanLiDian/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-24T13:45:20+08:00 ] 0.0.0.0 POST localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin
+[运行时间：0.156043s] [吞吐率：6.41req/s] [内存消耗：4,235.45kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001621s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-fetch-dest' => 'empty',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://localhost',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/BIanLiDian/public/admin',
+  '__token__' => 'ca2d962ce07178e888d61c34b1ae1747',
+  'username' => 'admin',
+  'password' => 'admin1',
+  'captcha' => 'cmij',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003615s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.007900s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006358s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_admin` [ RunTime:0.004571s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001993s ]
+[ sql ] [ SQL ] UPDATE `bld_admin`  SET `logintime`=1585028720,`token`='d2812b6f-f617-43a8-a4a2-f5d493c80855',`updatetime`=1585028720  WHERE  `id` = 1 [ RunTime:0.010416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_admin_log` [ RunTime:0.001843s ]
+[ sql ] [ SQL ] INSERT INTO `bld_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/BIanLiDian\\/public\\/admin\",\"__token__\":\"ca2d962ce07178e888d61c34b1ae1747\",\"username\":\"admin\",\"captcha\":\"cmij\"}' , '/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36' , '0.0.0.0' , 1585028720) [ RunTime:0.003698s ]
+---------------------------------------------------------------
+[ 2020-03-24T13:45:20+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin
+[运行时间：0.239300s] [吞吐率：4.18req/s] [内存消耗：4,636.84kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002182s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'referer' => 'http://localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003959s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_group_access` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `bld_auth_group_access` `aga` LEFT JOIN `bld_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_rule` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `bld_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `bld_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2020-03-24T13:45:21+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/dashboard?addtabs=1
+[运行时间：0.237518s] [吞吐率：4.21req/s] [内存消耗：4,502.34kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.047517s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'iframe',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/BIanLiDian/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009438s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000203s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000886s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_group_access` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `bld_auth_group_access` `aga` LEFT JOIN `bld_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_rule` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `bld_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `bld_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.010906s ]
+---------------------------------------------------------------
+[ 2020-03-24T13:45:21+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/ajax/lang?callback=define&controllername=index&v=1585028720
+[运行时间：0.174587s] [吞吐率：5.73req/s] [内存消耗：4,269.91kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000176s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004253s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'script',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/BIanLiDian/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1585028720',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003729s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000291s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005481s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_group_access` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `bld_auth_group_access` `aga` LEFT JOIN `bld_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_rule` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `bld_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2020-03-24T13:45:21+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/ajax/lang?callback=define&controllername=dashboard&v=1585028720
+[运行时间：0.304940s] [吞吐率：3.28req/s] [内存消耗：4,268.63kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.046520s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'script',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/BIanLiDian/public/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1585028720',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006351s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000203s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_group_access` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `bld_auth_group_access` `aga` LEFT JOIN `bld_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_rule` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `bld_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2020-03-24T13:45:27+08:00 ] 0.0.0.0 GET localhost/BIanLiDian/public/admin/index/login?url=%2FBIanLiDian%2Fpublic%2Fadmin
+[运行时间：0.088082s] [吞吐率：11.35req/s] [内存消耗：4,375.45kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001626s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=uflhin07uicocsdukj1iga5khf; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1583976639,1584940345; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1585028706',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/BIanLiDian/public/admin',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002791s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Applications/MAMP/htdocs/www/BIanLiDian/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/www/BIanLiDian/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_group_access` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `bld_auth_group_access` `aga` LEFT JOIN `bld_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_auth_rule` [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `bld_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000597s ]

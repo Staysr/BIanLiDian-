@@ -1,0 +1,3500 @@
+---------------------------------------------------------------
+[ 2020-03-17T13:19:57+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.611747s] [吞吐率：1.63req/s] [内存消耗：3,406.25kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001197s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012706s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015824s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007879s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.093154s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.012762s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:19:57+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.609747s] [吞吐率：1.64req/s] [内存消耗：3,406.69kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001325s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013834s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015207s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047658s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.055169s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:19:57+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.129407s] [吞吐率：7.73req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003411s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004640s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.017628s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.006427s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:20:16+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.375021s] [吞吐率：0.73req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000203s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008281s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009749s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002815s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.012828s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.005783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.134070s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.002315s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:21:16+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.548348s] [吞吐率：1.82req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000230s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011429s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008806s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001059s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.005467s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:21:16+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.551895s] [吞吐率：1.81req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000230s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010521s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006772s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003911s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.006944s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:21:17+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.530588s] [吞吐率：1.88req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.046159s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008860s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002992s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.009094s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.002039s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:21:26+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.424511s] [吞吐率：0.70req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000187s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002591s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010145s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006403s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.006661s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.011337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.018685s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:27:58+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：4.415943s] [吞吐率：0.23req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000934s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.402329s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.221700s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001270s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.010695s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000845s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:27:58+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：4.653538s] [吞吐率：0.21req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000354s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.604483s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.206953s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004848s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.010151s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:27:59+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.425101s] [吞吐率：2.35req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001295s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005570s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012666s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001812s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.032950s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.001496s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:28:08+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.713626s] [吞吐率：0.58req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.154656s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007923s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.101118s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.002669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.008463s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:06+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：3.471580s] [吞吐率：0.29req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000407s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007937s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007222s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005055s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.034122s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.001138s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:06+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：3.478662s] [吞吐率：0.29req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000079s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007715s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007786s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007890s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.024656s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001101s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:10+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.208717s] [吞吐率：4.79req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010279s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002966s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.006433s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:10+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.383554s] [吞吐率：2.61req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003859s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008104s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124059s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.009064s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.017949s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:11+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.711116s] [吞吐率：1.41req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002795s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004986s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.006694s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.001244s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.264152s] [吞吐率：3.79req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010728s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006056s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.008911s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：1.345919s] [吞吐率：0.74req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.076895s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.013459s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002109s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.010690s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:26+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.761869s] [吞吐率：1.31req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003410s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003411s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008845s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:31:30+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.629509s] [吞吐率：1.59req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003453s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004663s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001099s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.179134s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.014550s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001454s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:32:00+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.677103s] [吞吐率：1.48req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.075268s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010575s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002602s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.012856s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.002082s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:32:00+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.641702s] [吞吐率：1.56req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.074377s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007179s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008984s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.009224s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.003119s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:32:00+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.177907s] [吞吐率：5.62req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002700s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003863s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002285s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008161s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:35:44+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：4.064678s] [吞吐率：0.25req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000430s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.133243s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005939s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.244457s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.010507s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.003275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.008230s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000672s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:37:07+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.624963s] [吞吐率：1.60req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.207097s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007074s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001834s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.007647s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:37:07+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.619428s] [吞吐率：1.61req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.126378s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007667s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001652s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.007655s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:37:07+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.106945s] [吞吐率：9.35req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001835s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005287s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000707s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.006050s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000748s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:37:14+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.152635s] [吞吐率：0.87req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002724s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004725s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001380s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.010935s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.008144s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001087s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:10+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：1.416870s] [吞吐率：0.71req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.293551s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009329s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002167s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.008509s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.002252s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:10+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：1.430406s] [吞吐率：0.70req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.366341s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009637s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004873s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.014393s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001472s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:10+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.247205s] [吞吐率：4.05req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009030s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005043s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001024s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.059557s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.002352s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.954078s] [吞吐率：0.51req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003945s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.020880s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000827s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.495121s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.368533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.016349s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.013563s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:40+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.499899s] [吞吐率：2.00req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009569s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007925s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.005831s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:40+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.503037s] [吞吐率：1.99req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007324s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006509s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.009176s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:40+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.159723s] [吞吐率：6.26req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003587s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004060s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008764s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.001226s ]
+---------------------------------------------------------------
+[ 2020-03-17T13:38:47+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：1.606944s] [吞吐率：0.62req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.104165s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008981s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001339s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.008510s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.010797s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001112s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:00:35+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.454752s] [吞吐率：2.20req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000078s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011217s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.011338s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003689s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.011861s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.001214s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:00:35+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.458283s] [吞吐率：2.18req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006929s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.011548s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003664s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.011853s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001201s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:00:35+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.114191s] [吞吐率：8.76req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004591s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009198s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001802s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.006964s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:01:00+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.724534s] [吞吐率：1.38req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008244s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.015133s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.007489s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.007855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.006334s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000732s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:11:08+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.370963s] [吞吐率：2.70req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000229s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006130s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010614s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002797s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.008829s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001587s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:11:08+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.371365s] [吞吐率：2.69req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005290s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009816s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002557s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.008824s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.001035s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:11:08+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.216503s] [吞吐率：4.62req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009885s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008926s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001142s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.009373s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.001213s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:11:13+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.483146s] [吞吐率：2.07req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.029768s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005975s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.023936s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.007406s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.002057s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:13:33+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.301907s] [吞吐率：3.31req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014252s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005729s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002566s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.018304s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.002873s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:13:33+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.304489s] [吞吐率：3.28req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000115s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040013s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009866s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002862s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.018303s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001729s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:13:33+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.143422s] [吞吐率：6.97req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003567s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004705s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008441s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000776s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:13:38+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.217898s] [吞吐率：4.59req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000214s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003049s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006138s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.008128s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.007091s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:12+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.941532s] [吞吐率：1.06req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000080s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008900s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.011426s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.019496s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:12+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.935664s] [吞吐率：1.07req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009047s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010326s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.018172s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:13+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.126615s] [吞吐率：7.90req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001852s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003037s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.007122s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/showshop
+[运行时间：0.986102s] [吞吐率：1.01req/s] [内存消耗：3,418.95kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009379s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'showshop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'goodsid' => '14',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.044654s ]
+[ info ] [ RUN ] app\api\controller\Order->showshop[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002299s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.010474s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  state  > 0 AND repertory > 0 )  AND `id` IN (14) [ RunTime:0.002946s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/useraddres
+[运行时间：0.968825s] [吞吐率：1.03req/s] [内存消耗：3,494.96kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.089506s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'useraddres',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003460s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->useraddres[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.005971s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_address` [ RunTime:0.007415s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_address` WHERE  `uid` = 6  AND `states` = '1' LIMIT 1 [ RunTime:0.001195s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/phoneuser
+[运行时间：1.212430s] [吞吐率：0.82req/s] [内存消耗：3,488.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000186s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015256s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'phoneuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006454s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->phoneuser[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.009651s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.042730s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.004569s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/verificationinventory
+[运行时间：0.841328s] [吞吐率：1.19req/s] [内存消耗：3,450.85kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013380s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'verificationinventory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '306',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'goods' => '[{"goodsid":14,"count":2,"price":10}]',
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.062694s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Order->verificationinventory[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.008189s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.002949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.019510s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  `id` = 14 [ RunTime:0.008283s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:22+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.304182s] [吞吐率：3.29req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002321s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004126s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001290s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.008822s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.001192s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/phoneuser
+[运行时间：0.697772s] [吞吐率：1.43req/s] [内存消耗：3,488.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012820s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'phoneuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004391s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->phoneuser[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005613s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.014463s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.009102s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001011s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/useraddres
+[运行时间：0.774704s] [吞吐率：1.29req/s] [内存消耗：3,494.96kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004110s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'useraddres',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006653s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->useraddres[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002261s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.008139s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_address` [ RunTime:0.012301s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_address` WHERE  `uid` = 6  AND `states` = '1' LIMIT 1 [ RunTime:0.000855s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/verificationinventory
+[运行时间：0.426860s] [吞吐率：2.34req/s] [内存消耗：3,450.85kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017882s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'verificationinventory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '306',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'goods' => '[{"goodsid":14,"count":2,"price":10}]',
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005976s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Order->verificationinventory[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.012747s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.007237s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  `id` = 14 [ RunTime:0.001502s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:24+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/showshop
+[运行时间：0.827134s] [吞吐率：1.21req/s] [内存消耗：3,418.95kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.031678s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'showshop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'goodsid' => '14',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003969s ]
+[ info ] [ RUN ] app\api\controller\Order->showshop[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001846s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.007164s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  state  > 0 AND repertory > 0 )  AND `id` IN (14) [ RunTime:0.001569s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:28+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/listrest
+[运行时间：0.327535s] [吞吐率：3.05req/s] [内存消耗：3,495.02kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.023741s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'listrest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003216s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->listrest[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005355s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.007270s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.002713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_address` [ RunTime:0.007053s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_address` WHERE  `uid` = 6 ORDER BY `id` DESC [ RunTime:0.002335s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:30+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/verificationinventory
+[运行时间：0.190662s] [吞吐率：5.24req/s] [内存消耗：3,450.85kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002195s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'verificationinventory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '306',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'goods' => '[{"goodsid":14,"count":2,"price":10}]',
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002605s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Order->verificationinventory[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003940s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.009993s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.013588s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  `id` = 14 [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:31+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.290280s] [吞吐率：3.44req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003427s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004297s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.007255s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:15:33+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.268127s] [吞吐率：3.73req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001749s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002864s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.007921s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.005648s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:16:57+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.852131s] [吞吐率：1.17req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.101765s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.016642s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007578s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.007037s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.005244s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:16:57+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.415583s] [吞吐率：2.41req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.103643s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007197s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003752s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.007068s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:16:58+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.218276s] [吞吐率：4.58req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.073319s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007184s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.007566s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:17:03+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.315320s] [吞吐率：3.17req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000066s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009274s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.024118s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016968s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.030649s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.008803s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:20:46+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.376716s] [吞吐率：2.65req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007400s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007480s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.005654s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:20:46+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.378822s] [吞吐率：2.64req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007094s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007610s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.005804s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:20:46+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.113594s] [吞吐率：8.80req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003124s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006023s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000985s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.011207s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:21:08+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.355012s] [吞吐率：2.82req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008021s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006614s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.007101s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.007138s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001356s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：0.474475s] [吞吐率：2.11req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003623s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.014927s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.007629s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:20+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：0.501179s] [吞吐率：2.00req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000116s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003429s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005727s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000991s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.006676s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:21+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.135483s] [吞吐率：7.38req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002351s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002252s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000932s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.007116s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000645s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:28+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.423401s] [吞吐率：2.36req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002265s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003590s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.005558s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.009328s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.005485s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:56+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：1.347855s] [吞吐率：0.74req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000077s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011647s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.018708s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.007691s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:56+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：1.345962s] [吞吐率：0.74req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017608s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012966s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004373s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.008694s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:22:56+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.251554s] [吞吐率：3.98req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005746s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003476s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008852s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:23:53+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/configuration
+[运行时间：1.353234s] [吞吐率：0.74req/s] [内存消耗：3,406.70kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000202s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020371s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'configuration',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009808s ]
+[ info ] [ RUN ] app\api\controller\Order->configuration[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002215s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_configuration` [ RunTime:0.011674s ]
+[ sql ] [ SQL ] SELECT `id`,`distribution`,`deliverypay` FROM `bld_configuration` WHERE  `state` = '1' LIMIT 1 [ RunTime:0.002752s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:23:53+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderone
+[运行时间：1.409164s] [吞吐率：0.71req/s] [内存消耗：3,406.27kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020599s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009014s ]
+[ info ] [ RUN ] app\api\controller\Order->orderone[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014262s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_classify` [ RunTime:0.017641s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`description` FROM `bld_classify` WHERE  `state` > '0' [ RunTime:0.002044s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:23:53+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/order/orderlist
+[运行时间：0.375329s] [吞吐率：2.66req/s] [内存消耗：3,422.83kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000585s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003801s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003964s ]
+[ info ] [ RUN ] app\api\controller\Order->orderlist[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_commodity` [ RunTime:0.008112s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_commodity` WHERE  (  classify_id = 1 AND state > 0 AND repertory > 0 ) ORDER BY `id` DESC [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2020-03-17T15:24:04+08:00 ] 0.0.0.0 POST www.bianlidian.com/api/user/userdata
+[运行时间：0.260324s] [吞吐率：3.84req/s] [内存消耗：3,492.64kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002280s ]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bianlidian.com',
+  'connection' => 'keep-alive',
+  'content-length' => '232',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:23054',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.3 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1 wechatdevtools/1.02.2001022 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx3fb24f5d2f0956d6/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'UmYAO1FoBmwJcwEkVW5UNwA1AiIDPwYyUSIBaFNoADkAY1NpBn9UPgk+A29Qc1hmAH9XMFFqBD0DNlwsUTgGdlI9ADNRYwZsCSoBOFU2VG8ATgI0A2IGZlExASJTRgBLABZTBAYhVE8JTQMnUBNYOgBYVw9RbAQWAxZcbFFIBmhSbAAjUWAGJQkyAWJVblQnAH8CaAM5BjhRZQFxUzoAagBvU2IGN1R5',
+)
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006468s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Applications/MAMP/htdocs/18031/BIanLiDian/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->userdata[ /Applications/MAMP/htdocs/18031/BIanLiDian/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;dbname=BIanLiDian;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_user_token` [ RunTime:0.006311s ]
+[ sql ] [ SQL ] SELECT * FROM `bld_user_token` WHERE  `token` = '087eca24769fc8f2611ce25f4a267d8b7459341f' LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bld_userlist` [ RunTime:0.007259s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`nickName`,`phone`,`avatarUrl`,`price` FROM `bld_userlist` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000839s ]
